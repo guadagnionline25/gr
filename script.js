@@ -27,14 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
-  // Button click handlers for all buttons with class "new-button"
-  const allButtons = document.querySelectorAll('.new-button');
-  allButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      window.open('https://t.me/mobihub_lite_bot', '_blank');
-    });
-  });
-
   // Cookie consent functionality
   const cookiePopup = document.getElementById('cookie-popup');
   const acceptButton = document.getElementById('cookie-accept');
